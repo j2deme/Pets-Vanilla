@@ -23,14 +23,14 @@ touch pets.db
 sqlite3 pets.db
 ```
 
+Se crea una tabla llamada `pets` con dos columnas, `id` y `name`.
+
 ```sql
 CREATE TABLE pets (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT NOT NULL
 );
 ```
-
-La tabla anterior, crea una tabla llamada `pets` con dos columnas, `id` y `name`.
 
 ## Ejecución
 
